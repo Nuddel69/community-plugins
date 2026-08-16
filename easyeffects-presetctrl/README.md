@@ -5,12 +5,10 @@ widget.
 
 ## Plugin
 
-<!-- Copy ids exactly from plugin.toml. Remove rows that do not apply. -->
-
 | Field | Value |
 | --- | --- |
-| ID | `Nuddel69/easyeffects-presetctrl` |
-| Entries | Bar widget: `preset-picker`; panel: `picker`|
+| ID | `nuddel69/easyeffects-presetctrl` |
+| Entries | Bar widget: `preset_picker`; panel: `picker`|
 
 ## Requirements
 
@@ -25,7 +23,7 @@ CLI and will present you with all available outputs.
 The panel can also be accessed using the IPC command:
 
 ```sh
-noctalia msg panel-toggle Nuddel69/easyeffects-presetctrl:picker
+noctalia msg panel-toggle nuddel69/easyeffects-presetctrl:picker
 ```
 
 ## Settings

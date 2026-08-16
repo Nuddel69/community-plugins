@@ -19,6 +19,6 @@ function update()
 end
 
 function onClick()
-  noctalia.togglePanel("Nuddel69/easyeffects-presetctrl:picker")
+  noctalia.togglePanel("nuddel69/easyeffects-presetctrl:picker")
   render()
 end
