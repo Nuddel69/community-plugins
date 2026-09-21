@@ -4,6 +4,8 @@ version = "1.0.0"
 plugin_api = 3
 author = "Nuddel69"
 license = "AGPL-3.0"
+tags = ["bar", "utility"]
+dependencies = []
 icon = "vaccine-bottle"
 description = "Widget icon for monitoring nightscout glucose information"
 
