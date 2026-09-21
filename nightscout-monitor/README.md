@@ -7,7 +7,7 @@ configurable Nightscout host.
 
 | Field | Value |
 | --- | --- |
-| ID | `Nuddel69/nightscout-monitor` |
+| ID | `nuddel69/nightscout-monitor` |
 | Entries | Bar widgets: `monitor`; service: `ticker`;|
 
 ## Requirements
