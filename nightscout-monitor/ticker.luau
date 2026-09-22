@@ -4,9 +4,11 @@ local host = noctalia.getConfig("host"):gsub("/+$", "")
 
 if host == "" then
   noctalia.notifyError("Missing host address")
+  return
 end
 if secret == "" then
   noctalia.notifyError("Missing API secret")
+  return
 end
 
 noctalia.setUpdateInterval(interval * 1000)
