@@ -33,7 +33,7 @@ function fetch()
 end
 
 function update()
-  noctalia.runAsync("noctalia msg plugin Nuddel69/nightscout-monitor:ticker all fetch", function() end)
+  noctalia.runAsync("noctalia msg plugin nuddel69/nightscout-monitor:ticker all fetch", function() end)
 end
 
 function onIpc(event, payload)

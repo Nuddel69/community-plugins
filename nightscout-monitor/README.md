@@ -38,7 +38,7 @@ instance. This is repeated for each fetch.
 The plugin exposes a single IPC event used to force a widget update:
 
 ```sh
-noctalia msg plugin Nuddel69/nightscout-monitor:ticker all fetch
+noctalia msg plugin nuddel69/nightscout-monitor:ticker all fetch
 ```
 
 ## Roadmap
